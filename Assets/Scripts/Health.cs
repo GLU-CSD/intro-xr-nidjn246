@@ -18,6 +18,10 @@ public class Health : MonoBehaviour
     void UpdateHealthBar()
     {
         healthbarFill.fillAmount = currentHealth / maxHealth;
+        if (currentHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void TakeDamage(float amount)

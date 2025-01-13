@@ -8,11 +8,12 @@ TagManager:
   - Base
   - Terrain
   - Castle
+  - Spawner
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ignore buybox
   - Water
   - UI
   - 

@@ -11,7 +11,6 @@ public class mushroomtrigger : MonoBehaviour
         if (other.CompareTag("Player")) // Geef de XR Rig de tag "Player"
         {
             mushroomLight.enabled = true;
-            Debug.Log("Licht aan");
         }
     }
 
@@ -20,7 +19,6 @@ public class mushroomtrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             mushroomLight.enabled = false;
-            Debug.Log("Licht uit");
         }
     }
 }

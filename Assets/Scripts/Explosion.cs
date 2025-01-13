@@ -26,7 +26,7 @@ public class Explosion : MonoBehaviour
             NavMeshAgent agent = nearbyObject.GetComponent<NavMeshAgent>();
             if (agent != null)
             {
-                agent.enabled = false;
+                //agent.enabled = false;
             }
 
             Health healthScript = nearbyObject.GetComponent<Health>();
