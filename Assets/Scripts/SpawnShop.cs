@@ -17,7 +17,7 @@ public class SpawnShop : MonoBehaviour
         if (IsShopSpawned == false)
         {
         IsShopSpawned = true;
-        Instantiate(Shop, Spawnlocation.transform.position, Quaternion.identity);
+        Instantiate(Shop, Spawnlocation.transform.position, Spawnlocation.transform.rotation);
         }
     }
     

@@ -2439,7 +2439,7 @@ GameObject:
   - component: {fileID: 133327093089490628}
   - component: {fileID: 1938010991999932748}
   m_Layer: 0
-  m_Name: Shop
+  m_Name: shop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2453,7 +2453,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5256901863119872637}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 512.7842, y: -0.000017166138, z: 448.8238}
   m_LocalScale: {x: 0.30549824, y: 0.22839677, z: 0.18230143}
   m_ConstrainProportionsScale: 0
@@ -2463,7 +2463,7 @@ Transform:
   - {fileID: 2873482773938369816}
   - {fileID: 2249482660595624096}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5691087320549229803
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2533,8 +2533,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 5.412433, y: 6.101614, z: 7.856013}
-  m_Center: {x: 0.8121231, y: 2.5093818, z: 0.033951048}
+  m_Size: {x: 5.4124327, y: 1.2140303, z: 7.856013}
+  m_Center: {x: 0.812123, y: 0.06559063, z: 0.033951167}
 --- !u!114 &1938010991999932748
 MonoBehaviour:
   m_ObjectHideFlags: 0
