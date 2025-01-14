@@ -12,7 +12,7 @@ public class SpawnItem : MonoBehaviour
 
     private void Awake()
     {
-     gameManager = FindObjectOfType<GameManager>();
+        gameManager = FindObjectOfType<GameManager>();
     }
     public void SpawnBoughtItem()
     {

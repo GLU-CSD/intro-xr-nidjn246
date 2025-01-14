@@ -1,24 +1,24 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class SpawnShop : MonoBehaviour
 {
     [SerializeField] private GameObject Shop;
     [SerializeField] private GameObject Spawnlocation;
-    [SerializeField] InputActionReference Buttonclick;
-    void Start()
-    {
-        
-    }
+    [SerializeField] public bool IsShopSpawned;
 
-    void Update()
+    public void SpawnTheShop()
     {
-        if (Buttonclick != null)
+        if (IsShopSpawned == false)
         {
-            Debug.Log("hij werkt");
+        IsShopSpawned = true;
+        Instantiate(Shop, Spawnlocation.transform.position, Quaternion.identity);
         }
     }
+    
 }
