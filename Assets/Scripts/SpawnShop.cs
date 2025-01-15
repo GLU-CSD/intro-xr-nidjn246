@@ -11,13 +11,23 @@ public class SpawnShop : MonoBehaviour
     [SerializeField] private GameObject Shop;
     [SerializeField] private GameObject Spawnlocation;
     [SerializeField] public bool IsShopSpawned;
-
+#if UNITY_EDITOR
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            SpawnTheShop();
+        }
+    }
+#endif
     public void SpawnTheShop()
     {
         if (IsShopSpawned == false)
         {
-        IsShopSpawned = true;
-        Instantiate(Shop, Spawnlocation.transform.position, Spawnlocation.transform.rotation);
+            IsShopSpawned = true;
+            GameObject shop = Instantiate(Shop, Spawnlocation.transform.position, Spawnlocation.transform.rotation);
+            DeleteShop deleteShop = shop.GetComponent<DeleteShop>();
+            deleteShop.SetSpawnShop(this);
         }
     }
     

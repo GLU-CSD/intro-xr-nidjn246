@@ -8,21 +8,22 @@ using UnityEngine.UI;
 public class DeleteShop : MonoBehaviour
 {
     [SerializeField] private float Timer = 20f;
-    [SerializeField] private TextMeshProUGUI ShopTimer;
-    private GameObject ScoreHand;
+    [SerializeField] private TextMeshProUGUI ShopTimerText;
+    private SpawnShop SpawnShop = null;
 
-    private void Awake()
-    {
-        ScoreHand = GameObject.Find("ScoreHand");
-    }
     void Update()
     {
         Timer = Timer - Time.deltaTime;
-        ShopTimer.text = "Time left: " + Mathf.RoundToInt(Timer);
+        ShopTimerText.text = "Time left: " + Mathf.RoundToInt(Timer);
         if (Timer <= 0)
         {
-             ScoreHand.GetComponent<SpawnShop>().IsShopSpawned = false;
+            SpawnShop.IsShopSpawned = false;
             Destroy(gameObject);
         }
+    }
+
+    public void SetSpawnShop(SpawnShop spawnShop)
+    {
+        SpawnShop = spawnShop;
     }
 }
