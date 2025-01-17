@@ -185,6 +185,52 @@ MonoBehaviour:
   Shop: {fileID: 5256901863119872637, guid: 0190f7a3419aaa74c979224babdb2a6b, type: 3}
   Spawnlocation: {fileID: 685681446}
   IsShopSpawned: 0
+--- !u!1 &232944713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 232944714}
+  - component: {fileID: 232944715}
+  m_Layer: 0
+  m_Name: shrek spawner (1)
+  m_TagString: Spawner
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &232944714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232944713}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -23.44, y: -11.503115, z: 1.52}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 699596456}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &232944715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232944713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a14b7a32df6384dac0e550264ff06b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToSpawn: {fileID: 6222793170544522540, guid: 35becf550cd7bd544800b23af07fa069, type: 3}
+  spawnInterval: 5
 --- !u!1 &407058851
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,52 +365,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407058851}
   m_CullTransparentMesh: 1
---- !u!1 &477241169
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 477241170}
-  - component: {fileID: 477241171}
-  m_Layer: 0
-  m_Name: shrek spawner (3)
-  m_TagString: Spawner
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &477241170
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 477241169}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -49.2, y: -11.503115, z: 19.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 699596456}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &477241171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 477241169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54a14b7a32df6384dac0e550264ff06b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToSpawn: {fileID: 6222793170544522540, guid: 35becf550cd7bd544800b23af07fa069, type: 3}
-  spawnInterval: 82.5
 --- !u!1 &482498231
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,52 +541,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &579575230
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 579575231}
-  - component: {fileID: 579575232}
-  m_Layer: 0
-  m_Name: shrek spawner (2)
-  m_TagString: Spawner
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &579575231
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 579575230}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -33.04, y: -11.503115, z: 0.33}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 699596456}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &579575232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 579575230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54a14b7a32df6384dac0e550264ff06b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToSpawn: {fileID: 6222793170544522540, guid: 35becf550cd7bd544800b23af07fa069, type: 3}
-  spawnInterval: 31.6
 --- !u!1 &599154184 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1670256624, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
@@ -597,7 +551,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1670256625, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
   m_PrefabInstance: {fileID: 9014170783393774276}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &626257054
+--- !u!1 &634024947
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -605,44 +559,44 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 626257055}
-  - component: {fileID: 626257056}
+  - component: {fileID: 634024948}
+  - component: {fileID: 634024949}
   m_Layer: 0
-  m_Name: shrek spawner (1)
+  m_Name: Donkey spawner (2)
   m_TagString: Spawner
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &626257055
+--- !u!4 &634024948
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 626257054}
+  m_GameObject: {fileID: 634024947}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.63, y: -11.503115, z: -1.47}
+  m_LocalPosition: {x: -23.84, y: -11.532115, z: 1.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 699596456}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &626257056
+--- !u!114 &634024949
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 626257054}
+  m_GameObject: {fileID: 634024947}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 54a14b7a32df6384dac0e550264ff06b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToSpawn: {fileID: 6222793170544522540, guid: 35becf550cd7bd544800b23af07fa069, type: 3}
-  spawnInterval: 13.01
+  objectToSpawn: {fileID: 6222793170544522540, guid: 2084e6b22e5c80e48bf92a5a62478025, type: 3}
+  spawnInterval: 20
 --- !u!1 &685681446
 GameObject:
   m_ObjectHideFlags: 0
@@ -704,71 +658,15 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1504851289}
-  - {fileID: 626257055}
-  - {fileID: 579575231}
-  - {fileID: 477241170}
+  - {fileID: 232944714}
+  - {fileID: 2067907898}
+  - {fileID: 1627520354}
   - {fileID: 1433362390}
-  - {fileID: 1120586216}
-  - {fileID: 1221190348}
+  - {fileID: 1775601355}
+  - {fileID: 634024948}
+  - {fileID: 1286266391}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &754020586
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6222793170544522540, guid: 35becf550cd7bd544800b23af07fa069, type: 3}
-      propertyPath: m_Name
-      value: Shrek
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667501777316678602, guid: 35becf550cd7bd544800b23af07fa069, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 498.251
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667501777316678602, guid: 35becf550cd7bd544800b23af07fa069, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.000010728836
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667501777316678602, guid: 35becf550cd7bd544800b23af07fa069, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 451.119
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667501777316678602, guid: 35becf550cd7bd544800b23af07fa069, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.6452544
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667501777316678602, guid: 35becf550cd7bd544800b23af07fa069, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667501777316678602, guid: 35becf550cd7bd544800b23af07fa069, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7639678
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667501777316678602, guid: 35becf550cd7bd544800b23af07fa069, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667501777316678602, guid: 35becf550cd7bd544800b23af07fa069, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667501777316678602, guid: 35becf550cd7bd544800b23af07fa069, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 99.631
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667501777316678602, guid: 35becf550cd7bd544800b23af07fa069, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 35becf550cd7bd544800b23af07fa069, type: 3}
 --- !u!1 &1005213045 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
@@ -962,7 +860,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1098997130}
   m_CullTransparentMesh: 1
---- !u!1 &1120586215
+--- !u!1 &1286266390
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -970,90 +868,44 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1120586216}
-  - component: {fileID: 1120586217}
+  - component: {fileID: 1286266391}
+  - component: {fileID: 1286266392}
   m_Layer: 0
-  m_Name: Donkey spawner (1)
+  m_Name: Donkey spawner (3)
   m_TagString: Spawner
   m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1120586216
+--- !u!4 &1286266391
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1120586215}
+  m_GameObject: {fileID: 1286266390}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.59, y: -11.532115, z: 9.34}
+  m_LocalPosition: {x: -5.32, y: -11.532115, z: 15.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 699596456}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1120586217
+--- !u!114 &1286266392
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1120586215}
+  m_GameObject: {fileID: 1286266390}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 54a14b7a32df6384dac0e550264ff06b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 6222793170544522540, guid: 2084e6b22e5c80e48bf92a5a62478025, type: 3}
-  spawnInterval: 9.8
---- !u!1 &1221190347
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1221190348}
-  - component: {fileID: 1221190349}
-  m_Layer: 0
-  m_Name: Donkey spawner (2)
-  m_TagString: Spawner
-  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1221190348
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1221190347}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -26.8, y: -11.532115, z: 46.83}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 699596456}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1221190349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1221190347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54a14b7a32df6384dac0e550264ff06b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToSpawn: {fileID: 6222793170544522540, guid: 2084e6b22e5c80e48bf92a5a62478025, type: 3}
-  spawnInterval: 29.3
+  spawnInterval: 20
 --- !u!20 &1406093829 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 1767192439, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
@@ -1099,7 +951,7 @@ Transform:
   m_GameObject: {fileID: 1433362388}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.476349, y: -11.532115, z: 35.568756}
+  m_LocalPosition: {x: -23.81, y: -11.532115, z: 32.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1203,8 +1055,8 @@ Terrain:
   m_TerrainData: {fileID: 15600000, guid: 16c3f7416c5537747b73eb844ccd3583, type: 2}
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
-  m_TreeCrossFadeLength: 0
-  m_TreeMaximumFullLODCount: 50
+  m_TreeCrossFadeLength: 200
+  m_TreeMaximumFullLODCount: 10000
   m_DetailObjectDistance: 80
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
@@ -1389,6 +1241,52 @@ MonoBehaviour:
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: e87ef86dcddc55e48ad18497c3d727f3, type: 2}
   m_BuildHeightMesh: 0
+--- !u!1 &1627520353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1627520354}
+  - component: {fileID: 1627520355}
+  m_Layer: 0
+  m_Name: shrek spawner (3)
+  m_TagString: Spawner
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1627520354
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627520353}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -24.37, y: -11.503115, z: 31.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 699596456}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1627520355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627520353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a14b7a32df6384dac0e550264ff06b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToSpawn: {fileID: 6222793170544522540, guid: 35becf550cd7bd544800b23af07fa069, type: 3}
+  spawnInterval: 5
 --- !u!1 &1627625116
 GameObject:
   m_ObjectHideFlags: 0
@@ -1717,6 +1615,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1768259298}
   m_CullTransparentMesh: 1
+--- !u!1 &1775601354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1775601355}
+  - component: {fileID: 1775601356}
+  m_Layer: 0
+  m_Name: Donkey spawner (1)
+  m_TagString: Spawner
+  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1775601355
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775601354}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -42.05, y: -11.532115, z: 15.11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 699596456}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1775601356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775601354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a14b7a32df6384dac0e550264ff06b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToSpawn: {fileID: 6222793170544522540, guid: 2084e6b22e5c80e48bf92a5a62478025, type: 3}
+  spawnInterval: 20
 --- !u!1 &1800088427
 GameObject:
   m_ObjectHideFlags: 0
@@ -1856,63 +1800,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 202364687, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
   m_PrefabInstance: {fileID: 9014170783393774276}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1888636403
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6222793170544522540, guid: 2084e6b22e5c80e48bf92a5a62478025, type: 3}
-      propertyPath: m_Name
-      value: Donkey
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667501777316678602, guid: 2084e6b22e5c80e48bf92a5a62478025, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 498.299
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667501777316678602, guid: 2084e6b22e5c80e48bf92a5a62478025, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.00002670288
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667501777316678602, guid: 2084e6b22e5c80e48bf92a5a62478025, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 452.167
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667501777316678602, guid: 2084e6b22e5c80e48bf92a5a62478025, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667501777316678602, guid: 2084e6b22e5c80e48bf92a5a62478025, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667501777316678602, guid: 2084e6b22e5c80e48bf92a5a62478025, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667501777316678602, guid: 2084e6b22e5c80e48bf92a5a62478025, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667501777316678602, guid: 2084e6b22e5c80e48bf92a5a62478025, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667501777316678602, guid: 2084e6b22e5c80e48bf92a5a62478025, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6667501777316678602, guid: 2084e6b22e5c80e48bf92a5a62478025, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2084e6b22e5c80e48bf92a5a62478025, type: 3}
 --- !u!1 &1922586544
 GameObject:
   m_ObjectHideFlags: 0
@@ -2111,63 +1998,52 @@ RectTransform:
   m_AnchoredPosition: {x: 0.13717651, y: 1.56}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1001 &2038131183
-PrefabInstance:
+--- !u!1 &2067907897
+GameObject:
   m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2067907898}
+  - component: {fileID: 2067907899}
+  m_Layer: 0
+  m_Name: shrek spawner (2)
+  m_TagString: Spawner
+  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2067907898
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067907897}
   serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2062269470231460427, guid: 0190f7a3419aaa74c979224babdb2a6b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 496.69687
-      objectReference: {fileID: 0}
-    - target: {fileID: 2062269470231460427, guid: 0190f7a3419aaa74c979224babdb2a6b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.23529172
-      objectReference: {fileID: 0}
-    - target: {fileID: 2062269470231460427, guid: 0190f7a3419aaa74c979224babdb2a6b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 451.78336
-      objectReference: {fileID: 0}
-    - target: {fileID: 2062269470231460427, guid: 0190f7a3419aaa74c979224babdb2a6b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.007420522
-      objectReference: {fileID: 0}
-    - target: {fileID: 2062269470231460427, guid: 0190f7a3419aaa74c979224babdb2a6b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2062269470231460427, guid: 0190f7a3419aaa74c979224babdb2a6b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.99997246
-      objectReference: {fileID: 0}
-    - target: {fileID: 2062269470231460427, guid: 0190f7a3419aaa74c979224babdb2a6b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2062269470231460427, guid: 0190f7a3419aaa74c979224babdb2a6b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2062269470231460427, guid: 0190f7a3419aaa74c979224babdb2a6b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 179.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 2062269470231460427, guid: 0190f7a3419aaa74c979224babdb2a6b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5256901863119872637, guid: 0190f7a3419aaa74c979224babdb2a6b, type: 3}
-      propertyPath: m_Name
-      value: shop
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 0190f7a3419aaa74c979224babdb2a6b, type: 3}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -42.36, y: -11.503115, z: 14.54}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 699596456}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2067907899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067907897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a14b7a32df6384dac0e550264ff06b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToSpawn: {fileID: 6222793170544522540, guid: 35becf550cd7bd544800b23af07fa069, type: 3}
+  spawnInterval: 5
 --- !u!1 &2086211566
 GameObject:
   m_ObjectHideFlags: 0
@@ -2715,6 +2591,3 @@ SceneRoots:
   - {fileID: 699596456}
   - {fileID: 188333902}
   - {fileID: 3127728407915103140}
-  - {fileID: 1888636403}
-  - {fileID: 754020586}
-  - {fileID: 2038131183}
