@@ -22,6 +22,7 @@ public class Spawner : MonoBehaviour
         if (objectToSpawn != null)
         {
             Instantiate(objectToSpawn, transform.position, transform.rotation);
+            spawnInterval = Random.Range(1, 50);
         }
         else
         {
